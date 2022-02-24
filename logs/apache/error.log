@@ -1,0 +1,4 @@
+AH00557: httpd: apr_sockaddr_info_get() failed for akilhoward.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 22 17:45:25.634068 2022] [mpm_event:notice] [pid 60695:tid 4587654656] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Feb 22 17:45:25.635068 2022] [core:notice] [pid 60695:tid 4587654656] AH00094: Command line: '/Users/akilhoward/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/akilhoward/Library/Application Support/Local/run/cyaoxQZ7h/conf/apache/apache2.conf'

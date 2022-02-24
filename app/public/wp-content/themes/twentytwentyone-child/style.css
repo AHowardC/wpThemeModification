@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*
+Theme Name: Twenty Twenty-One Child
+Theme URI: https://wordpress.org/themes/twentytwentyone/
+Template: twentytwentyone
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Tags: one-column,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,block-patterns,rtl-language-support,sticky-post,threaded-comments,translation-ready
+Version: 1.5.1645577684
+Updated: 2022-02-23 00:54:44
+
+*/
+/* added styling for cards layout (mobile-responsive with grid) */
+.cards-container {
+  display: grid;
+  margin: 0px 100px;
+}
+
+.cards {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 1rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.cards .card img {
+  max-width: 100% !important;
+}
+
+.internal-card-content {
+  padding: 30px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .cards-container {
+    margin: 20px;
+    overflow-x: hidden;
+  }
+}

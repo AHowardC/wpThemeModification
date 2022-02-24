@@ -1,0 +1,40 @@
+[24-Feb-2022 14:22:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'child_theme_configurator_css' not found or invalid function name in /Users/akilhoward/Local Sites/test/app/public/wp-includes/class-wp-hook.php on line 307
+[24-Feb-2022 14:22:16 UTC] PHP Stack trace:
+[24-Feb-2022 14:22:16 UTC] PHP   1. {main}() /Users/akilhoward/Local Sites/test/app/public/index.php:0
+[24-Feb-2022 14:22:16 UTC] PHP   2. require() /Users/akilhoward/Local Sites/test/app/public/index.php:17
+[24-Feb-2022 14:22:16 UTC] PHP   3. require_once() /Users/akilhoward/Local Sites/test/app/public/wp-blog-header.php:19
+[24-Feb-2022 14:22:16 UTC] PHP   4. include() /Users/akilhoward/Local Sites/test/app/public/wp-includes/template-loader.php:106
+[24-Feb-2022 14:22:16 UTC] PHP   5. get_header() /Users/akilhoward/Local Sites/test/app/public/wp-content/themes/twentytwentyone-child/category-faculty.php:12
+[24-Feb-2022 14:22:16 UTC] PHP   6. locate_template() /Users/akilhoward/Local Sites/test/app/public/wp-includes/general-template.php:48
+[24-Feb-2022 14:22:16 UTC] PHP   7. load_template() /Users/akilhoward/Local Sites/test/app/public/wp-includes/template.php:716
+[24-Feb-2022 14:22:16 UTC] PHP   8. require_once() /Users/akilhoward/Local Sites/test/app/public/wp-includes/template.php:770
+[24-Feb-2022 14:22:16 UTC] PHP   9. wp_head() /Users/akilhoward/Local Sites/test/app/public/wp-content/themes/twentytwentyone/header.php:20
+[24-Feb-2022 14:22:16 UTC] PHP  10. do_action() /Users/akilhoward/Local Sites/test/app/public/wp-includes/general-template.php:3042
+[24-Feb-2022 14:22:16 UTC] PHP  11. WP_Hook->do_action() /Users/akilhoward/Local Sites/test/app/public/wp-includes/plugin.php:474
+[24-Feb-2022 14:22:16 UTC] PHP  12. WP_Hook->apply_filters() /Users/akilhoward/Local Sites/test/app/public/wp-includes/class-wp-hook.php:331
+[24-Feb-2022 14:22:16 UTC] PHP  13. wp_enqueue_scripts() /Users/akilhoward/Local Sites/test/app/public/wp-includes/class-wp-hook.php:307
+[24-Feb-2022 14:22:16 UTC] PHP  14. do_action() /Users/akilhoward/Local Sites/test/app/public/wp-includes/script-loader.php:2105
+[24-Feb-2022 14:22:16 UTC] PHP  15. WP_Hook->do_action() /Users/akilhoward/Local Sites/test/app/public/wp-includes/plugin.php:474
+[24-Feb-2022 14:22:16 UTC] PHP  16. WP_Hook->apply_filters() /Users/akilhoward/Local Sites/test/app/public/wp-includes/class-wp-hook.php:331
+[24-Feb-2022 14:29:44 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /Users/akilhoward/Local Sites/test/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 28
+[24-Feb-2022 14:29:47 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /Users/akilhoward/Local Sites/test/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 28
+[24-Feb-2022 14:47:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/akilhoward/Local Sites/test/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 32 and at least 2 expected in /Users/akilhoward/Local Sites/test/app/public/wp-includes/plugin.php:398
+Stack trace:
+#0 /Users/akilhoward/Local Sites/test/app/public/wp-content/themes/twentytwentyone-child/functions.php(32): add_action('wp_enqueue_scri...')
+#1 /Users/akilhoward/Local Sites/test/app/public/wp-settings.php(555): include('/Users/akilhowa...')
+#2 /Users/akilhoward/Local Sites/test/app/public/wp-config.php(77): require_once('/Users/akilhowa...')
+#3 /Users/akilhoward/Local Sites/test/app/public/wp-load.php(50): require_once('/Users/akilhowa...')
+#4 /Users/akilhoward/Local Sites/test/app/public/wp-blog-header.php(13): require_once('/Users/akilhowa...')
+#5 /Users/akilhoward/Local Sites/test/app/public/index.php(17): require('/Users/akilhowa...')
+#6 {main}
+  thrown in /Users/akilhoward/Local Sites/test/app/public/wp-includes/plugin.php on line 398
+[24-Feb-2022 14:47:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/akilhoward/Local Sites/test/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 32 and at least 2 expected in /Users/akilhoward/Local Sites/test/app/public/wp-includes/plugin.php:398
+Stack trace:
+#0 /Users/akilhoward/Local Sites/test/app/public/wp-content/themes/twentytwentyone-child/functions.php(32): add_action('wp_enqueue_scri...')
+#1 /Users/akilhoward/Local Sites/test/app/public/wp-settings.php(555): include('/Users/akilhowa...')
+#2 /Users/akilhoward/Local Sites/test/app/public/wp-config.php(77): require_once('/Users/akilhowa...')
+#3 /Users/akilhoward/Local Sites/test/app/public/wp-load.php(50): require_once('/Users/akilhowa...')
+#4 /Users/akilhoward/Local Sites/test/app/public/wp-blog-header.php(13): require_once('/Users/akilhowa...')
+#5 /Users/akilhoward/Local Sites/test/app/public/index.php(17): require('/Users/akilhowa...')
+#6 {main}
+  thrown in /Users/akilhoward/Local Sites/test/app/public/wp-includes/plugin.php on line 398
